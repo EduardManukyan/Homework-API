@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+
+}
+
+.pagination-container p {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.box-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-content ul {
+    width: 47%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 20px 20px 20px 40px;
+    color: white;
+    background: #80808080;
+    font-size: 20px;
+   
+
+}
+
+#mySpan {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    color: darkslategray;
+
+}
